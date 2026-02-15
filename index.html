@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentine's Digital Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Dancing+Script:wght@400..700&family=Parisienne&display=swap" rel="stylesheet">
+    
+    <!-- KONFIGURASI FOTO DAN TEKS -->
+    <script>
+      window.VALENTINE_CONFIG = {
+        initials: "c",
+        recipientName: "Valentine",
+        mainQuestion: "would you be my valentine?",
+        openingPhoto: "https://i.ibb.co.com/Lhzx8Szg/Untitled-design-5.png",
+        saveTheDate: {
+          day: "14",
+          month: "FEBRUARY",
+          year: "2026",
+          time: "19.00 - ??",
+          location: "@ UR HOME BUBBY"
+        },
+        letter: {
+          greeting: "Dear my love",
+          body: `Happy Valentine ya sayang, i hope you know that you're matter to me, kamu penting banget buat aku, dan aku beneran se sayang itu sama kamu.. 
+
+please don't choose other boy ya.. stay with me.. i promise i will always make you happy, i'll always love you, i'll always choose you to be my girlfriend in every other universe. 
+
+layaknya lirik lagu "Pelangi - Hivi!" Tetaplah Engkau Di Sini, Jangan Datang Lalu Kau Pergi. tolong stay sama aku ya?? aku gabisa bayangin kalau kamu ninggalin aku, dan aku juga gamau moment itu terjadi.
+
+i bakal lakuin apapun biar hubungan ini berhasil, i'll fight for us, for our relationship.. karena yang ku mau cuma kamu, ce, aku mau kamu nemenin aku selama nya, bener bener selamanya, till the lights leave my eyes. 
+
+ce, sebenernya aku takut buat fall in love lagi, yang ku pikirin cuma 'mesti ditinggalin lagi' 'mesti di selingkuhin lagi'.. but for you, i'll try ce. aku berani ada di relationship lagi juga karena kamu.. 
+
+terimakasih sudah memilih aku sebagai cowo kamu, terimakasih sudah memilihku untuk menemanimu di perjalanan hidup yang panjang ini, izinkan aku menemanimu selamanya ce..`,
+          closing: "sekali lagi, happy valentine sayangg, i love you to the moon and back.."
+        },
+        photos: [
+          "https://i.ibb.co.com/zWGhSrT6/Home.png", 
+          "https://i.ibb.co.com/1f3qNfkq/Untitled-design-7.png", 
+          "https://i.ibb.co.com/G4ZQxQTb/Untitled-design.png", 
+          "https://i.ibb.co.com/GypGJQf/Home-4.png", 
+          "https://i.ibb.co.com/gFZZsVGZ/Untitled-design-12.png", 
+          "https://i.ibb.co.com/FqyqScQR/Untitled-design-1.png", 
+          "https://i.ibb.co.com/v6ZGjxZ2/Untitled-design-2.png", 
+          "https://i.ibb.co.com/4RNt1hn8/Home-2.png", 
+          "https://i.ibb.co.com/7xb3QYRK/Untitled-design-9.png", 
+          "" 
+        ],
+        colors: {
+          primary: "#701111", 
+          accent: "#d4af37",  
+          bg: "#fdf2f2"       
+        }
+      };
+    </script>
+
+    <style>
+      .font-cursive { font-family: 'Great Vibes', cursive; }
+      .font-serif-elegant { font-family: 'Playfair Display', serif; }
+      .font-handwriting { font-family: 'Dancing Script', cursive; }
+      .font-romantic { font-family: 'Parisienne', cursive; }
+      
+      body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: #fdf2f2;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "framer-motion": "https://esm.sh/framer-motion@^12.34.0",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.4"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <!-- PERBAIKAN: Gunakan path relatif 'index.tsx' agar terbaca oleh build tool dengan benar -->
+    <script type="module" src="index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
